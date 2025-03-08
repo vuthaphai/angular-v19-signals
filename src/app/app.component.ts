@@ -5,7 +5,7 @@ import { SharedModule } from './shared/shared.module';
   selector: 'app-root',
   imports: [SharedModule,],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'angular-v19-signals';
